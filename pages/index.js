@@ -17,7 +17,8 @@ export default function Home(props) {
         </h1>
       </div>
       {session ? (
-        <div className="w-full h-full flex items-center justify-center ">
+        <div className="w-full h-full flex items-center justify-center flex-col">
+          <h1 className="font-bold m-5 text-4xl">you are sign in </h1>
           <button
             onClick={signOut}
             className=" hover:bg-black hover:text-white border-black border-2 px-2 py-1 font-semibold rounded-md"
